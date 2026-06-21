@@ -1,0 +1,25 @@
+name: Publish to VS Code Marketplace
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'themes/**'
+      - 'package.json'
+      - 'README.md'
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Publish to Marketplace
+        run: npx @vscode/vsce publish
+        env:
+          VSCE_PAT: ${{ secrets.VSCE_PAT }}

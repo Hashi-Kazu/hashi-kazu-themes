@@ -1,0 +1,38 @@
+{
+  "name": "hashi-kazu-themes",
+  "displayName": "Hashi Kazu Themes",
+  "description": "A collection of VS Code color themes by hashi-kazu.",
+  "version": "1.0.0",
+  "publisher": "hashi-kazu",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Ado - Hibana",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ado-hibana-color-theme.json"
+      },
+      {
+        "label": "Ado - 心臓",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ado-shinzou-color-theme.json"
+      },
+      {
+        "label": "Ado - よだか",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ado-yodaka-color-theme.json"
+      }
+    ]
+  },
+  "keywords": [
+    "theme",
+    "dark",
+    "ado",
+    "japanese"
+  ]
+}

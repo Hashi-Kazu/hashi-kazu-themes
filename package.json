@@ -2,13 +2,14 @@
   "name": "hashi-kazu-themes",
   "displayName": "Hashi Kazu Themes",
   "description": "A collection of VS Code color themes by hashi-kazu.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "Hashi-Kazu",
   "repository": {
     "type": "git",
     "url": "https://github.com/Hashi-Kazu/hashi-kazu-themes"
   },
   "license": "MIT",
+  "icon": "media/icon.png",
   "engines": {
     "vscode": "^1.60.0"
   },

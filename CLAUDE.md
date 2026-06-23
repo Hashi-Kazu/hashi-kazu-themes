@@ -34,6 +34,11 @@ main へ push すると GitHub Actions（`.github/workflows/publish.yml`）が
 2. `package.json` の `contributes.themes` に1エントリ追記（`label` / `uiTheme` / `path`）
 3. `version` をマイナーアップ → push
 
+## アーキテクチャ判断
+
+重要な設計判断は `docs/adr/` に記録されている。
+新機能実装や既存コードの変更前に、関連するADRを確認すること。
+
 ## 注意
 
 - `*.vsix`（ビルド成果物）は `.gitignore` で除外。コミットしない。

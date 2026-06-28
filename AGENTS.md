@@ -24,9 +24,9 @@ git status -sb
 git diff --stat
 ```
 
-## publisher 最短フロー
+## publish 手順（main が直接実行）
 
-publisher は以下だけ行う:
+main は以下だけ行う:
 
 1. `git status -sb`
 2. `git diff --stat`

@@ -12,9 +12,9 @@
 - テーマ追加など: マイナーアップ。
 - 同じ `package.json` version は Marketplace に再公開できないため、変更のたびに必ず version を上げる。
 
-## publisher の責務
+## publish 手順（main が直接実行）
 
-`publisher` は commit / push までを担当する。ビルドやテストは存在しないため実行しない。
+main は commit / push までを直接実行する。ビルドやテストは存在しないため実行しない。
 
 標準フロー:
 
